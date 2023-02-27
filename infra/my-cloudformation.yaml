@@ -1,0 +1,8 @@
+Resources:
+  VPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.192.10.0/28
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+    
